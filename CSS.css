@@ -1,0 +1,99 @@
+body {
+    font-family: "Avenir Next";
+    background-color: #b2dfdb;
+}
+
+.header {
+    background-color: #26d0c9;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    padding: 20px 50px;
+  }
+
+.header-logo{
+    color: white;
+    margin-right: auto;
+    font-size: 30px;
+}
+
+.header-list li{
+    list-style: none;
+    display: flex;
+    display: inline-block;
+    padding: 0px 20px;
+}
+
+.header a {
+    text-decoration: none;
+    color: white;
+}
+
+.header-list a:hover {
+    color: #b2dfdb;
+}
+
+.main {
+    display: flex;
+    align-items: center;
+    border: 0px solid ;
+    height: 250px;
+    margin: 30px 20px;
+    background-color: white;
+    justify-content: center;
+}
+
+.gambar-logo{
+    margin: 10px 10px;
+}
+
+.profil{
+    margin: 10px 50px 10px 10px;
+}
+
+.profil2{
+    margin: 10px 10px;
+}
+
+.input{
+    margin: 30px 20px;
+    background-color: white;
+    height: 550px;
+}
+
+.input form{
+    margin: 25px 25px;
+    padding-top: 25px;
+}
+
+.input [type=button]{
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 14px;
+    margin: 10px 10px 10px 0px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.footer {
+    background-color: #2f5167;
+    color: #fff;
+    height: 120px;
+    padding: 40px;
+}
+
+.footer-list{
+    display: flex;
+    justify-content: end;
+}
+
+.footer-logo{
+    font-size: 30px;
+}
+
+.footer-list li{
+    list-style: none;
+    margin-top: 20px;
+}
